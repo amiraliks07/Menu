@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+  
+   
+    padding: 20px;
+
+}
+nav{
+   background-color: black; 
+ color: aliceblue;
+  width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 40px 20px 40px 20px;
+
+}
+
+
+li {
+    list-style: none;
+
+
+
+}
+li:hover{
+    background-color: rgb(108, 112, 108);
+}
+
+@media(max-width: 700px) {
+    ul {
+        display: block;
+    }
+    select{
+        z-index: 1;
+    }
+}
